@@ -51,24 +51,25 @@ footer .wrapp {
   background-image: url("../img/bg_orange.png");
 }
 
-nav.foot {
+/* nav.foot {
   display: flex;
   justify-content: center;
   padding-top: 5px;
   padding-bottom: 20px;
-}
+} */
 
 footer p {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   padding-bottom: 40px;
-  color: var(--white);
-}
+  color: var(--white); */
+   padding: 40px !important; 
+} 
 
 .foot a {
   text-transform: uppercase;
   padding: 2px 15px;
-  color: var(--white);
+  /* color: var(--white); */
 }
 
 .foot a:hover {
@@ -76,7 +77,7 @@ footer p {
 }
 
 footer p span {
-  padding: 0 5px;
+  padding: 0 5px !important;
 }
 
 footer p span:first-child::after {
