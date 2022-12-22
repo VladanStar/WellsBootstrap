@@ -46,6 +46,85 @@ textarea:focus {
 li {
     list-style: none !important;
 }
+
+/*========= Main ===============*/
+main .wrapp {
+  overflow: hidden;
+}
+
+main {
+  background-image: url("../img/wells_background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+main h1 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.h2-cnt {
+  padding: 0 90px;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+/*======== Section one ============*/
+
+.section-one-home {
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin-top: -6px !important;
+  background-color: var(--white);
+}
+
+.info {
+  /* display: flex; */
+  /* flex-basis: 33%;
+  text-align: center;*/
+  padding-bottom: 50px; 
+
+}
+
+.info h2 {
+  padding: 20px;
+  color: var(--orange);
+}
+
+.info p {
+  padding: 0 40px;
+  color: var(--gray);
+}
+
+
+/*========== Section two =================*/
+
+.section-two-home {
+  background-image: url("../img/home_content.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-two-home p {
+  text-align: center;
+  padding: 150px;
+  color: var(--white);
+}
+/*========= Section three ============*/
+
+.section-three {
+  background-color: #fff;
+  text-align: center;
+  padding: 50px 0 70px;
+  color: var(--gray);
+}
+
+.section-three p {
+  padding: 0 150px;
+}
+
+.section-three h2 {
+  margin-top: 10px;
+}
 /* Footer */
 footer .wrapp {
   background-image: url("../img/bg_orange.png");
@@ -82,5 +161,5 @@ footer p span {
 
 footer p span:first-child::after {
   content: "I";
-  margin-left: 10px;
+  margin-left: 10px !important;
 }
