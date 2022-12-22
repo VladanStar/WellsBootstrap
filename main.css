@@ -77,7 +77,8 @@ main h1 {
   /* display: flex; */
   /* flex-basis: 33%;
   text-align: center;*/
-  padding-bottom: 5px; 
+  /* padding-bottom: 50px !important;  */
+  margin: auto;
 
 }
 
