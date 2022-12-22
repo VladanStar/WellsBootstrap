@@ -63,15 +63,11 @@ main h1 {
   padding: 50px 0;
 }
 
-.h2-cnt {
-  padding: 0 90px;
-  font-size: 1.25rem;
-  text-transform: uppercase;
-}
+
 /*======== Section one ============*/
 
 .section-one-home {
-  /* display: flex; */
+   display: flex; 
   /* flex-direction: row; */
   margin-top: -6px !important;
   background-color: var(--white);
@@ -81,7 +77,7 @@ main h1 {
   /* display: flex; */
   /* flex-basis: 33%;
   text-align: center;*/
-  padding-bottom: 50px; 
+  padding-bottom: 5px; 
 
 }
 
