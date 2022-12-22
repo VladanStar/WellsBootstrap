@@ -83,7 +83,7 @@ main h1 {
 }
 
 .info h2 {
-  padding: 20px;
+  /* padding: 20px; */
   color: var(--orange);
 }
 
@@ -102,15 +102,15 @@ main h1 {
 }
 
 .section-two-home p {
-  text-align: center;
-  padding: 150px;
+  /* text-align: center; */
+  padding: 150px !important;
   color: var(--white);
 }
 /*========= Section three ============*/
 
 .section-three {
   background-color: #fff;
-  text-align: center;
+  /* text-align: center; */
   padding: 50px 0 70px;
   color: var(--gray);
 }
