@@ -46,19 +46,40 @@ textarea:focus {
 li {
     list-style: none !important;
 }
-/*========== Header ============*/
+/* Footer */
+footer .wrapp {
+  background-image: url("../img/bg_orange.png");
+}
 
-/* .nav-down > a:hover:after,
-.nav-down > a.active:after,
-.nav-down >li > a:hover:after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid var(--orange);
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
-} */
+nav.foot {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  color: var(--white);
+}
+
+.foot a {
+  text-transform: uppercase;
+  padding: 2px 15px;
+  color: var(--white);
+}
+
+.foot a:hover {
+  color: var(--gray);
+}
+
+footer p span {
+  padding: 0 5px;
+}
+
+footer p span:first-child::after {
+  content: "I";
+  margin-left: 10px;
+}
