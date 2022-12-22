@@ -47,3 +47,19 @@ textarea:focus {
 li {
     list-style: none !important;
 }
+/*========== Header ============*/
+
+.nav-down > a:hover:after,
+.nav-down > a.active:after,
+.nav-down >li > a:hover:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid var(--orange);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
