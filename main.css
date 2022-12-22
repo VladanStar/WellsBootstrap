@@ -7,7 +7,6 @@
   --white: #fff;
 --titillium: 'Titillium Web', sans-serif;
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -49,7 +48,7 @@ li {
 }
 /*========== Header ============*/
 
-.nav-down > a:hover:after,
+/* .nav-down > a:hover:after,
 .nav-down > a.active:after,
 .nav-down >li > a:hover:after {
   content: "";
@@ -62,4 +61,4 @@ li {
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
-}
+} */
