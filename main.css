@@ -195,7 +195,9 @@ footer p span:first-child::after {
   .section-three p {
     padding: 30px 30px 0 30px;
   }
-
+.phone {
+  background-color: var(--orange) !important;
+}
   .section-three h2 {
     padding: 0 30px;
   }
