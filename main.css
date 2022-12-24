@@ -160,3 +160,112 @@ footer p span:first-child::after {
   content: "I";
   margin-left: 10px !important;
 }
+
+/*============ Media Queries=====================*/
+
+@media only screen and (max-width: 800px) {
+  header .wrapp {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  main h1 {
+    padding: 0px 50px;
+  }
+
+  .nav-up {
+    display: none;
+  }
+
+  .logo {
+    margin-top: 10px;
+  }
+
+  .section-one-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-two-home p {
+    padding: 30px;
+  }
+
+  .section-three p {
+    padding: 30px 30px 0 30px;
+  }
+
+  .section-three h2 {
+    padding: 0 30px;
+  }
+
+  nav.foot {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section-one-serv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cnt-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .address {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .brick {
+    margin-top: 180px;
+  }
+
+  .cnt-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .logo {
+    transform: scale(0.7);
+  }
+
+  h2 {
+    transform: scale(0.9);
+  }
+
+  .nav-down {
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+  }
+
+  main h1 {
+    transform: scale(0.6);
+    padding: 0;
+  }
+
+  .address {
+    max-width: 100%;
+  }
+
+  .tel {
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+
+  .brick {
+    margin-top: 110px;
+  }
+
+  .section-three .h2-cnt {
+    padding: 0px;
+    transform: scale(0.8);
+  }
+}
