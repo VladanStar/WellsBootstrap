@@ -53,7 +53,7 @@ main .wrapp {
 }
 
 main {
-  background-image: url("../img/wells_background.png");
+  background-image: url("./img/wells_background.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -96,7 +96,7 @@ main h1 {
 /*========== Section two =================*/
 
 .section-two-home {
-  background-image: url("../img/home_content.png");
+  background-image: url("./img/home_content.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -124,7 +124,8 @@ main h1 {
 }
 /* Footer */
 footer .wrapp {
-  background-image: url("../img/bg_orange.png");
+
+  background-image: url("./img/bg_orange.png");
 }
 
 /* nav.foot {
